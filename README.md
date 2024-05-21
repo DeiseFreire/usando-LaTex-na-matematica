@@ -36,3 +36,7 @@ Uma vez instalado o compilador, salve o código como um arquivo `.tex` (por exem
 ## Tags
 
 #Cálculo #FunçãoQuadrática #LaTeX #Matemática #Funções #EstudantesdeMatemática #ProfessoresdeMatemática #Iniciante #Educação #Ciência #Tecnologia
+
+## Imagem de uma parte do documento
+
+![img](https://github.com/DeiseFreire/usando-LaTex-na-matematica/blob/main/img.jpg)
