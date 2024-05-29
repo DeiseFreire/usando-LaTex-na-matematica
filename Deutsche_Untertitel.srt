@@ -1,0 +1,191 @@
+1
+00:00:00,000 --> 00:00:47,666
+\documentclass{article} % Dokumentklasse (bei Bedarf anpassen)
+
+2
+00:00:47,666 --> 00:01:07,133
+% Pakete
+
+3
+00:01:07,133 --> 00:01:38,799
+\usepackage{amsmath} % Pakete für fortgeschrittene Mathematiker
+
+4
+00:01:38,799 --> 00:02:11,366
+\usepackage{amssymb} % Pakete für mathematische Symbole
+
+5
+00:02:11,366 --> 00:02:46,399
+\usepackage{calc} % Ermöglicht arithmetische Berechnungen innerhalb des Dokuments
+
+6
+00:02:46,399 --> 00:03:23,832
+\usepackage{cancel} % Zeichnet Stornierungslinien, um vereinfachte Bedingungen hervorzuheben
+
+7
+00:03:23,832 --> 00:04:02,299
+\usepackage[utf8]{inputenc} % Aktiviert die UTF-8-Kodierung für portugiesische Zeichen
+
+8
+00:04:02,299 --> 00:04:49,865
+\usepackage[portuguese]{babel} % Aktiviert die portugiesische Sprachunterstützung
+
+9
+00:04:49,865 --> 00:05:40,333
+\usepackage{lmodern} % Verwenden Sie moderne lateinische Schriftarten (empfohlen für Portugiesisch)
+
+10
+00:05:40,333 --> 00:06:15,066
+\begin{document} % Hauptteil des Dokuments (Gleichung und Erklärungen)
+
+11
+00:06:15,066 --> 00:06:43,832
+\title{Studium mathematischer Funktionen} % Dokumenttitel
+
+12
+00:06:43,832 --> 00:07:02,932
+\author{ Deise Freire} % Name
+
+13
+00:07:02,932 --> 00:07:28,499
+\date{\today} % Datum des Dokuments
+
+14
+00:07:28,499 --> 00:07:47,566
+\maketitle % Zeigt Titel, Autor und Datum an
+
+15
+00:07:47,566 --> 00:09:07,432
+\textbf{Wenn $f\left( x \right) = \frac{x - 1}{x + 1}$, bestimmen Sie den Wert von $y$ so, dass: }
+
+16
+00:09:07,432 --> 00:09:13,865
+\[ ... \]
+
+17
+00:09:13,865 --> 00:13:02,199
+y = \frac{f\left( x\right) - f\left( -x \right)}{1 + f\left(x \right) \bullet f\left( -x \right)}
+
+18
+00:13:02,199 --> 00:13:15,965
+\begin{minipage} ... \end{minipage}
+
+19
+00:13:15,965 --> 00:14:02,432
+{.4\textwidth} % Legt die Breite der ersten Spalte fest (50 % der Gesamtbreite)
+
+20
+00:14:02,432 --> 00:14:08,932
+\begin{equation} ... \end{equation}
+
+21
+00:14:08,932 --> 00:14:49,499
+f\left( x\right) = \frac{x - 1}{x + 1}
+
+22
+00:14:49,499 --> 00:15:36,865
+\hfill % Abstand zwischen den Spalten
+
+23
+00:15:36,865 --> 00:15:45,799
+\begin{minipage} ... \end{minipage}
+
+24
+00:15:45,799 --> 00:16:19,333
+{.4\textwidth} % Legt die Breite der zweiten Spalte fest (50 % Breite)
+25
+00:16:19,333 --> 00:16:30,666
+\begin{equation}
+
+26
+00:16:30,666 --> 00:18:26,432
+y = \frac{f\left(x \right) - f\left( -x \right)}{1 + f\left( x \right) \bullet f\left( -x \right)}
+
+27
+00:18:26,432 --> 00:19:10,166
+Überprüfen, ob die Berechnung korrekt ist...
+
+28
+00:19:10,166 --> 00:19:20,133
+\[ ... \]
+
+29
+00:19:20,133 --> 00:20:16,965
+\textbf{Berechnung von $f\left( -x\right)$: }
+
+30
+00:20:16,965 --> 00:21:27,599
+f\left(-x \right) = \frac{-x - 1}{-x + 1}
+
+31
+00:21:27,599 --> 00:23:43,366
+\Rightarrow f\left( -x \right) = \frac{- \left(x + 1 \right)}{-\left(x - 1 \right)}
+
+32
+00:23:43,366 --> 00:24:46,133
+\Rightarrow f\left( -x \right) = \frac{x + 1}{x - 1}
+
+33
+00:24:46,133 --> 00:26:05,765
+Kontrolle, ob die Berechnung korrekt ist...
+
+34
+00:26:05,765 --> 00:26:14,865
+\[ ... \]
+
+35
+00:26:14,865 --> 00:26:31,399
+\text{daher: }
+
+36
+00:26:31,399 --> 00:29:02,599
+y = \frac{f\left( x \right) - f\left( -x \right)}{1 + f\left( x \right) \bullet f\left( - x \right)}
+
+37
+00:29:02,599 --> 00:32:27,499
+\Rightarrow y = \frac{\frac{x - 1}{x + 1} - \frac{x + 1}{x - 1}}{1 + \frac{\cancel{x - 1}}{\cancel{x + 1}} \bullet \frac{\cancel{x + 1}}{\cancel{x - 1}} }
+
+38
+00:32:27,499 --> 00:35:50,532
+\Rightarrow y = \frac{\frac{\left(x - 1 \right)^{2} - \left(x + 1 \right)^{2}}{\left(x - 1 \right) \bullet \left(x + 1 \right)}}{x + 1}
+
+39
+00:35:50,532 --> 00:36:30,732
+\[... \]
+
+40
+00:36:30,732 --> 00:38:47,799
+\[ y = \frac{\frac{\left(x^{2} - -2x +1 \right) - \left( x^{2} + 2x + 1 \right)}{x^{2} - 1}}{2}
+
+41
+00:38:47,799 --> 00:40:41,166
+\Rightarrow y = \frac{x^{2} - 2x + 1 - x^{2} - 2x - 1}{x^{2} - 1} \bullet \frac{1}{2} \]
+
+42
+00:40:41,166 --> 00:41:12,899
+Überprüfen des Codes...
+
+43
+00:41:12,899 --> 00:44:05,865
+\[ \Rightarrow y = \frac{x^{2} - x^{2} - 2x - 2x + 1 - 1}{x^{2} - 1} \bullet \frac{1}{2}
+
+44
+00:44:05,865 --> 00:46:56,466
+\Rightarrow y = \frac{\cancel{x^{2}} - \cancel{x^{2}} - 2x - 2x + \cancel{1} - \cancel{1}}{x^{2} - 1} \bullet \frac{1}{2} \]
+
+45
+00:46:56,466 --> 00:48:56,166
+\[ y = \frac{-4x}{2 \bullet \left(x^{2} - 1 \right)}
+
+46
+00:48:56,166 --> 00:50:24,666
+y = \frac{-2x}{\left( x^{2} - 1 \right)} \]
+
+47
+00:50:24,666 --> 00:51:56,566
+\[ \Rightarrow y = \frac{-2x}{- \left(1 - x^{2} \right)}
+
+48
+00:51:56,566 --> 00:52:44,799
+\Rightarrow y = \frac{2x}{1 - x^{2}} \]
+
